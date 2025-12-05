@@ -23,8 +23,8 @@ Actualmente, EnrutIA se centra en decidir qué modelo es el más adecuado para c
 - `app.py`: punto de entrada de la aplicación (interfaz web con Flask).
 - `enrutador.py`: implementación del enrutador y de la lógica de decisión.
 - `excel_to_pandas.py`: utilidades para cargar y transformar datos desde Excel a pandas.
-- `obtain_category.py`: funciones para obtener o clasificar categorías a partir de los datos.
-- `benchmark/`: scripts y datos para pruebas y evaluación del rendimiento.
+- `obtain_category.py`: Obtención de la categoría de la pregunta mediante un modelo ligero.
+- `benchmark/`: Datos de rendimiento de los modelos a enrutar.
 - `requirements.txt`: dependencias de Python necesarias para ejecutar el proyecto.
 - `LICENSE`: licencia MIT del proyecto.
 
@@ -71,3 +71,4 @@ Ejemplo de uso:
 - Román Hernández de los Mártires (@romanode)
 - Alejandro Gómez Alonso
 - Fernando Fernández Estemera
+
