@@ -2,13 +2,13 @@
 
 ## Motiviación del reto
 
-En el uso diario, cada consulta a un modelo de lenguaje grande consume un promedio de 0.14 kWh de electricidad y 519 ml para una respuesta de 100 palabras, pero al escalar a cientos de millones de peticiones diarias esto se traduce en cientos de MWh, cientos de miles de kilos de CO₂ y millones litros de agua al mes. Este es un problema relevante, ya que algunos LLM consumen mucha más energía que otros sin que ese mayor consumo se traduzca necesariamente en una mejor eficiencia. Las preguntas sencillas o deterministas suelen poder resolverse con modelos ligeros, mientras que, a medida que aumenta la dificultad, es necesario un mayor gasto medio para obtener una respuesta correcta.
+En el uso diario, cada consulta a un modelo de lenguaje grande consume un promedio de 0.14 kWh de electricidad y 519 ml para una respuesta de 100 palabras, pero al escalar a cientos de millones de peticiones diarias esto se traduce en cientos de MWh, cientos de miles de kilos de CO₂ y millones litros de agua al mes. Este es un problema relevante, ya que algunos LLM consumen mucha más energía que otros sin que ese mayor consumo se traduzca necesariamente en una mayor eficiencia. Las preguntas sencillas o deterministas suelen poder resolverse con modelos ligeros, mientras que, a medida que aumenta la dificultad, es necesario un mayor gasto medio para obtener una respuesta correcta.
 
 Sobre esta idea se construye el Reto UPM–Cotec del IndesIAhack 2025, que busca una solución para emplear los modelos de una manera eficiente, eligiéndose a cual enrutar para obtener una respuesta coherente pero gastando lo menos posible. 
 
 ## Descripción
 
-Nuestra propuesta consiste en un enrutador inteligente desarrollado en Python,que haciendo uso de los datos del benchmark y los costes de cada LLM, ya dados, usa Pandas para analisis de datos, haciendo hincampié en la categoria de las preguntas y como los modelos responden.
+Nuestra propuesta consiste en un enrutador inteligente desarrollado en Python, que haciendo uso de los datos del benchmark y los costes de cada LLM, ya dados, usa Pandas para analisis de datos, haciendo hincapié en la categoria de las preguntas y como los modelos responden.
 
 Para controlar el comportamiento del enrutador introducimos un factor \(k\), con valores entre 0 y 2, que permite configurar el tipo de respuesta que se desea obtener. Un valor \(k = 0\) prioriza siempre el modelo más potente, mientras que \(k = 2\) opta siempre por el modelo más ligero; el valor predeterminado es \(k = 1\), que representa el equilibrio planteado en el reto entre coste y calidad.
 
@@ -71,6 +71,7 @@ Ejemplo de uso:
 - Román Hernández de los Mártires (@romanode)
 - Alejandro Gómez Alonso (@agomezalonso24)
 - Fernando Fernández Estremera (@ferplus98)
+
 
 
 
