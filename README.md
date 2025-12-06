@@ -70,6 +70,7 @@ Ejemplo de uso:
 - Víctor Vázquez González (@vvazgonz)
 - Román Hernández de los Mártires (@romanode)
 - Alejandro Gómez Alonso (@agomezalonso24)
-- Fernando Fernández Estemera
+- Fernando Fernández Estremera (@ferplus98)
+
 
 
